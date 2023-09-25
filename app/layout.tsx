@@ -1,8 +1,5 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Landing Page',
@@ -16,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-light-shade mx-auto container">{children}</body>
+      <body className="bg-light-shade-1000 mx-auto container">{children}</body>
     </html>
   )
 }
